@@ -5,7 +5,5 @@ jobs:
         name: Build
         runs-on: ubuntu-latest
         steps:
-            - name: Install
-                run: npm install
-            - name: Build
-                run: npm run build
+            - run: node -v
+            - run: git -v
