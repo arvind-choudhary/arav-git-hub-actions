@@ -9,3 +9,4 @@ jobs:
             - run: git -v
             - run: npm -v
             - run: whoami
+            - run: pwd
