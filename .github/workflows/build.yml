@@ -4,6 +4,6 @@ jobs:
     build:
         name: Build
         runs-on: ubuntu-latest
-        container: node@alpine:3.20
+        container: node@22-alpine3.19
         steps:
             - run: node -v
